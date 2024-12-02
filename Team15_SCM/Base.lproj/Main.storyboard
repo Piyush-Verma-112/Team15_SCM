@@ -23,6 +23,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gqt-4j-mKB">
+                                <rect key="frame" x="165" y="486" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -31,6 +36,9 @@
                             <constraint firstItem="Zuq-RY-LcF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Coz-iM-5l4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zuq-RY-LcF" secondAttribute="trailing" constant="93" id="FPD-2Q-fCx"/>
                             <constraint firstItem="Zuq-RY-LcF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="104" id="h8I-cy-Mig"/>
+                            <constraint firstItem="Gqt-4j-mKB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="165" id="hRS-cH-lQE"/>
+                            <constraint firstItem="Gqt-4j-mKB" firstAttribute="centerX" secondItem="Zuq-RY-LcF" secondAttribute="centerX" id="pn5-qr-bvu"/>
+                            <constraint firstItem="Gqt-4j-mKB" firstAttribute="top" secondItem="Zuq-RY-LcF" secondAttribute="bottom" constant="49.666666666666686" id="qA5-JQ-G0s"/>
                         </constraints>
                     </view>
                 </viewController>
